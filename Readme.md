@@ -1,4 +1,4 @@
-# コードの説明
+## コードの説明
 
 1. クリックすると反応するウィンドウを作る。
 2. そしてクリックしたら画像の座標を返す関数を作る。
@@ -7,7 +7,7 @@
 4.用意した画像のフーリエ逆変換したものと3で用意したものを掛け合わせ
 それをクリックするたびに足し合わせていく。
 
-# 使い方
+## 使い方
 
 1. まずpython furie.pyで実行する。
 2. ウィンドウが５つ開く。
@@ -15,10 +15,10 @@
 4.ifftという名前のウィンドウに逆変換の合計が表示され、
 ifft_singleという名前のウィンドウにクリックした場所の逆変換が表示される。
 
-# 依存ライブラリ
+## 依存ライブラリ
 cv2,numpy,Image
 
-# 参考文献
+## 参考文献
 http://whitecat-student.hatenablog.com/entry/2016/11/09/225631
 
-http://labs.eecs.tottori-u.ac.jp/sd/Member/oyamada/OpenCV/html/py_tutorials/py_imgproc/py_transforms/py_fourier_transform/py_fourier_transform.html
+http://labs.eecs.tottoriu.ac.jp/sd/Member/oyamada/OpenCV/html/py_tutorials/py_imgproc/py_transforms/py_fourier_transform/py_fourier_transform.html
